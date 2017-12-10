@@ -1,0 +1,9 @@
+User-agent: *
+User-agent: Google
+User-agent: Googlebot-Image
+User-agent: Yandex
+User-agent: YandexImages
+Host: www.sarkasar.ru
+Sitemap: http://sarkasar.ru/sitemap.xml
+Disallow:
+
