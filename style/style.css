@@ -1,5 +1,6 @@
 
 @import url("/style/reset.css");
+@import url("/style/media-query.css");
 body {background:#313131; margin:0;padding:0;color:#727373;height:100%;}
 body, table, tr, td {font-family:Montserrat Alternates,Verdana,Tahoma;font-size:14px;font-style:normal;}
 hr {border:none;margin:5px 0;}
@@ -33,15 +34,3 @@ a:visited{color:##f64747;}
 #Happy33white{float:left;padding:30px 2%;}
 
 
-@media screen and (min-width: 320px) {
- #HeadAdress{float:left;padding:15px 30px;}
- #HeadAdress li span{font-weight: normal;}
- #IndexBody{width:100%}
- #IndexHead{width:100%;padding:0;}
- #HeadName{width:100%;padding:0;height:100px;}
- #HeadName p {font-size:26px;padding-bottom:7px;}   
- #IndexFooter{width:96%;padding:10px 2%;}
- #IndexHeadLogo{display:flex;align-items:center;justify-content:center;height: auto;width:100%;}
- #IndexHeadLogo img{max-width:150px;}
-    
-}
