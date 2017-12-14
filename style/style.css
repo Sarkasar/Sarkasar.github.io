@@ -33,7 +33,7 @@ a:visited{color:##f64747;}
 #Happy33white{float:left;padding:30px 2%;}
 
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 680px) {
 #IndexHead{width:100%;padding:0;}
 #HeadAdress{float:left;padding:15px 30px;}
 #HeadAdress li span{font-weight: normal;}
