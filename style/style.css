@@ -32,7 +32,7 @@ a:visited{color:##f64747;}
 #Happy33white{float:left;padding:30px 2%;}
 
 
-#Metrik{position:absolute;bottom:10px;right:10px;}
+#Metrik{position:absolute;bottom:10px;right:10px;opacity:0.7;}
 
 @media screen and (min-width: 560px) {
 #IndexHead{width:100%;padding:0;}
