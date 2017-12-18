@@ -26,10 +26,13 @@ a:visited{color:##f64747;}
 #HeadAdress li span {color:#296c4b;font-size:17px;font-weight: normal;}
 
 #IndexFooter{background:#1A1A1A;width:100%;padding:10px 0;}
-#FooterBody{margin:0 auto ;background:#272727;width:90%;min-height:200px;}
+#FooterBody{position: relative;margin:0 auto ;background:#272727;width:90%;min-height:200px;}
 #FooterLogo {float:left;display:flex;align-items:center;justify-content:center;width:100%;}
 #FooterLogo img{width:60px;width:60px;}
 #Happy33white{float:left;padding:30px 2%;}
+
+
+#Metrik{position:absolute;bottom:10px;right:10px;}
 
 @media screen and (min-width: 560px) {
 #IndexHead{width:100%;padding:0;}
