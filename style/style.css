@@ -43,7 +43,7 @@ a:visited{color:##f64747;}
 #IndexHeadLogo img{width:150px;}
     
 }
-@media (max-width: 3200px) and (min-width: 900px)
+@media (max-width: 320px) and (min-width: 900px)
  {
 #IndexBody{margin:0 auto 0;width:90%;height:100%;min-height:1000px;}
 #IndexHead{width:96%;padding:20px 2%;}
@@ -62,7 +62,7 @@ a:visited{color:##f64747;}
 #IndexHeadLogo{width:252px;height:176px;background:#1E362A;float:left;}
 #IndexHeadLogo img{width:252px;height:176px;}
 #IndexHeadLogo:hover{background:#276B4B;}
-#HeadName{padding:20px 0;height:100px;width:100%;display:flex;align-items:center;justify-content:center;height: auto;text-align:center;}    
+#HeadName{padding:20px 0;height:100px;width:400px;display:flex;align-items:center;justify-content:center;height: auto;text-align:center;}    
     
 #IndexFooter{background:#1A1A1A;max-width:1544px;width:100%;margin:0 auto 0;height:100%;}
 #FooterBody{margin:0 auto 40px;background:#272727;max-width:90%;min-height:200px;}
