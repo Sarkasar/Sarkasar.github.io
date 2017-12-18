@@ -27,12 +27,12 @@ a:visited{color:##f64747;}
 
 #IndexFooter{background:#1A1A1A;width:100%;padding:10px 0;}
 #FooterBody{position: relative;margin:0 auto ;background:#272727;width:90%;min-height:200px;}
-#FooterLogo {float:left;display:flex;align-items:center;justify-content:center;width:100%;}
+#FooterLogo {display:flex;align-items:center;justify-content:center;width:100%;padding-top:20px;}
 #FooterLogo img{width:60px;width:60px;}
-#Happy33white{float:left;padding:30px 2%;}
+#Happy33white{position:absolute;bottom:15px;left:15px;}
 
 
-#Metrik{position:absolute;bottom:10px;right:10px;opacity:0.7;}
+#Metrik{position:absolute;bottom:15px;right:15px;opacity:0.4;}
 
 @media screen and (min-width: 560px) {
 #IndexHead{width:100%;padding:0;}
