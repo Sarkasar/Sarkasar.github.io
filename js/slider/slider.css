@@ -7,10 +7,7 @@
   height: 300px;
 }
 
-@media screen and ( min-width: 768px ) {
-  .carousel img {
-    height: 300px;
-  }
+
 }
 .flickity-enabled {
   position: relative;
