@@ -34,10 +34,13 @@
 <!--[if lt IE 9]>
  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
  <![endif]-->
+ <link rel="stylesheet" href="/js/slider/owl.carousel.min.css" />
+ <link rel="stylesheet" href="/js/slider/owl.theme.default.css" />
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+ <script src="/js/slider/owl.carousel.min.js"></script>
  </head>
  
-<link rel="stylesheet" href="/js/slider/slider.css" media="screen">
- 
+
 <body>
 
  <div id="IndexBody">
@@ -62,40 +65,43 @@
 </nav>
 
 
-
-<div class="carousel " data-flickity='{ "wrapAround": true }'>
-  <!-- images from unsplash.com -->
-  <div class="carousel-cell">
-  <img src="/img/ring/Kolco_Parralelli.jpg">
-  </div>
-  <div class="carousel-cell">
-    <img src="/img/ring/Kolco_Parralelli1.jpg">
-  </div>
-  <div class="carousel-cell">
-    <img src="/img/ring/Kolco_Sputnik.jpg">
-  </div>
-   <div class="carousel-cell">
-    <img src="/img/ring/Kolco_Sputnik1.jpg">\
-    </div>
-    <div class="carousel-cell">
-    <img src="/img/ring/Kolco_Sputnik2.jpg">
-    </div>
-    <div class="carousel-cell">
-    <img src="/img/ring/Kolco_Trim.jpg">
-    </div>
-    <div class="carousel-cell">
-    <img src="/img/ring/Kolco_Trim1.jpg">
-    </div>
-</div>
+<div class="owl-carousel ">
+    <div class="owl-carousel-img"><img src="/img/ring/Kolco_Parralelli.jpg"></div>
+    <div class="owl-carousel-img"><img src="/img/ring/Kolco_Parralelli1.jpg"></div>
+    <div class="owl-carousel-img"><img src="/img/ring/Kolco_Sputnik.jpg"></div>
+    <div class="owl-carousel-img"><img src="/img/ring/Kolco_Sputnik1.jpg"></div>
+        </div>
 
 
 </div>
-<script src="/js/slider/slider.min.js"></script>
-<script src="/js/slider/slider.js"></script>
+
+
+<script type="text/javascript">$(document).ready(function() {
+	$('.owl-carousel').owlCarousel({
+		loop:true, //Зацикливаем слайдер
+		margin:10, //Отступ от картино если выводите больше 1
+		nav:false, //Отключил навигацию
+		autoplay:true, //Автозапуск слайдера
+		smartSpeed:1500, //Время движения слайда
+		autoplayTimeout:2500, //Время смены слайда
+		responsive:{ //Адаптация в зависимости от разрешения экрана
+			0:{
+				items:2
+			},
+			600:{
+				items:3
+			},
+			1200:{
+				items:5
+			}
+		}
+	});
+});</script>
+
  </body>
 <footer>
 <div id="IndexFooter">
-  <div id="FooterBody"><div id="Happy33white">Дизайн разработан <a href="http://happy33white.ru" title="Веб-дизайн от Happy33white">happy33white</a></div>
+  <div id="FooterBody"><noindex><div id="Happy33white">Дизайн разработан <a href="http://happy33white.ru" title="Веб-дизайн от Happy33white">happy33white</a></div></noindex>
  <div id="FooterLogo"><img src="/style/Logotype.png" alt="Логотип Sarkasar"></div>
  
  
