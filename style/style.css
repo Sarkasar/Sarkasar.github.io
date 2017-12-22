@@ -7,7 +7,7 @@ p {line-height: 1.5;}
 
 a{text-decoration:none;}
 a:link{color:#296C4B;}
-a:visited{color:##f64747;}
+a:visited{color:#f64747;}
 
 ::-webkit-scrollbar-button{width:3px;height:0px} ::-webkit-scrollbar-track {background-color:#F6F9FC} ::-webkit-scrollbar-thumb {-webkit-border-radius: 0px;border-radius: 0px;background-color:#4E566B;} ::-webkit-scrollbar-thumb:hover{background-color:#56999f;} ::-webkit-resizer{width:4px;height:0px} ::-webkit-scrollbar{width: 6px;}
 
@@ -17,9 +17,9 @@ a:visited{color:##f64747;}
 #IndexHeadLogo img{width:70px;}
 #IndexHeadLogo:hover{background:#276B4B;}
 
-#HeadName{float:left;padding:10px 0;height:100px;width:45%;display:flex;align-items:center;justify-content:center;height: auto;text-align:center;}
+#HeadName{float:left;padding:10px 15px;height:100px;width:45%;display:flex;align-items:center;justify-content:center;height: auto;text-align:center;}
 #HeadNameLogo p {color:#c6c6c6;font-size: 1.4rem;padding-bottom:10px;}
-#HeadNameJob{text-align:center;padding-top:15px;}
+#HeadNameJob{text-align:center;padding-top:7px;}
 #HeadNameJob span {font-size: 1rem;}
 
 #HeadAdress{visibility:hidden;align-items:center;justify-content:center;height: auto;text-align:center;padding:15px 30px;}
@@ -28,9 +28,9 @@ a:visited{color:##f64747;}
 
 #NavMenu{margin:0 auto 40px;padding:0 10px;list-style-type: none;
 align-items:center;justify-content:center;height: auto;text-align:center;}
-#NavMenu li {font-size: 1.2rem;padding:10px 10px;}
-#NavMenu li a{color:#8c8c8c;}
-#NavMenu li a:hover{color:#296C4B;}
+#NavMenu li {font-size: 1.3rem;padding:10px 10px;}
+#NavMenu li a{color:#8c8c8c;padding-bottom:10px;}
+#NavMenu li a:hover{color:#fefefe;border-bottom:2px solid #296C4B;}
 
 
 #IndexFooter{background:#1A1A1A;width:100%;padding:10px 0;}
@@ -52,8 +52,8 @@ align-items:center;justify-content:center;height: auto;text-align:center;}
 #HeadName p {font-size:26px;padding-bottom:7px;}   
 #HeadNameJob{visibility: visible;}
 #HeadNameLogo p {color:#c6c6c6;font-size: 1.5rem;padding-bottom:10px;}
-#HeadNameJob{text-align:center;padding-top:15px;}
-#HeadNameJob span {font-size: 1rem;}
+#HeadNameJob{text-align:center;padding-top:7px;}
+#HeadNameJob span {font-size: 1.2rem;}
 #IndexFooter{margin:0 auto 0;width:100%;padding:10px 0 30px 0;}
 #IndexHeadLogo{width:100%;display:flex;align-items:center;justify-content:center;height: auto;}
 #IndexHeadLogo img{width:100px;}
@@ -96,5 +96,5 @@ align-items:center;justify-content:center;height: auto;text-align:center;}
 
 
 
+.LinkActive {border-bottom:2px solid #296C4B;padding-bottom:10px;}
 
-.slick-slider{width:100%;}
