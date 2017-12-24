@@ -78,8 +78,8 @@ align-items:center;justify-content:center;height: auto;text-align:center;}
 @media screen and (min-width:1230px) {
 #IndexBody{margin:0 auto 0;max-width:1544px;height:100%;min-height:1000px;}
 #IndexHead{max-width:1434px;width:100%;height:230px;margin:50px auto 0;}
-#IndexHeadLogo{margin-left:20px;width:252px;height:176px;background:#1E362A;float:left;}
-#IndexHeadLogo img{width:150px;height:150px;}
+#IndexHeadLogo{margin-left:20px;width:230px;height:150px;background:#1E362A;float:left;}
+#IndexHeadLogo img{width:120px;height:120px;}
 #IndexHeadLogo:hover{background:#276B4B;}
  #HeadName{padding:40px 0;height:100px;width:60%;display:flex;align-items:center;justify-content:center;text-align:center;}    
 #HeadName p {font-size:33px;padding-bottom:20px;}
