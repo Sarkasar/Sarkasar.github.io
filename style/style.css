@@ -33,13 +33,22 @@ align-items:center;justify-content:center;height: auto;text-align:center;}
 
 
 #IndexFooter{background:#1A1A1A;width:100%;padding:10px 0;}
-#FooterBody{position: relative;margin:0 auto ;background:#272727;width:90%;min-height:200px;}
-#FooterLogo {display:flex;align-items:center;justify-content:center;width:100%;padding-top:20px;}
+#FooterBody{position: relative;margin:0 auto 0;background:#272727;padding:30px 0;}
+#FooterBodyBottomText{width: 50%; text-align: center;border-top:2px solid #1b1b1b;color:#1b1b1b;padding:20px 0 0 0;}
+#FooterLogo {align-items:center;justify-content:center;}
 #FooterLogo img{width:60px;width:60px;}
-#Happy33white{position:absolute;bottom:15px;left:15px;}
+#HappyMaster{text-align: center;}
+#HappyMaster p{background:#276B4B;color:#fefefe;padding:10px 0;}
+#HappyMasterSlogan{padding:40px 0;text-align: center;}
+#MasterGroup{position: relative;text-align: center;height:180px;background:#1E362A;}
+#MasterGroupUp{position: relative;top:10px;padding:20px 0;}
+#MasterGroupBottom{position: relative;top:10px;padding:20px 0;}
+#FollowVK{text-align: center;width:100%;margin-top:40px;height:60px;}
+#FollowVK a {color:#fefefe; background:#54759a;padding:10px 20px;width:120px;}
+#Happy33white{text-align: center;}
+#Happy33white a {color:#fefefe;}
+#Happy33white span{color:#fefefe;}
 
-
-#Metrik{position:absolute;bottom:15px;right:15px;opacity:0.4;}
 
 @media screen and (min-width: 560px) {
 #IndexHead{width:100%;padding:0;height:200px;}
@@ -70,7 +79,7 @@ align-items:center;justify-content:center;height: auto;text-align:center;}
 #HeadNameJob{text-align:center;padding-top:15px;}
 #HeadNameJob span {font-size: 1.9rem;}
 #NavMenu li {display:inline-block;font-size: 1.1rem;}
-#IndexFooter{width:90%;padding:10px 0 30px 0;}
+#IndexFooter{padding:10px 0 30px 0;}
 #IndexHeadLogo{width:152px;height:100px;}
 #IndexHeadLogo img{width:152px;}
     
@@ -87,8 +96,8 @@ align-items:center;justify-content:center;height: auto;text-align:center;}
 #HeadAdress{float:right;padding:40px 20px;}
 #NavMenu li {display:inline-block;font-size: 1.2rem;padding-right:5em;}
 #IndexFooter{background:#1A1A1A;max-width:1544px;width:100%;margin:0 auto 50px;height:100%;}
-#FooterBody{margin:0 auto 40px;background:#272727;max-width:100%;min-height:200px;}
-#FooterLogo {float:left;display:flex;align-items:center;justify-content:center;width:100%;}
+#FooterBody{margin:0 auto 40px;background:#272727;width:400px;}
+#FooterLogo {display:flex;align-items:center;justify-content:center;width:100%;}
 #FooterLogo img{width:60px;width:60px;}   
 }
 
