@@ -33,8 +33,8 @@ align-items:center;justify-content:center;height: auto;text-align:center;}
 
 
 #IndexFooter{background:#1A1A1A;width:100%;padding:10px 0;}
-#FooterBody{position: relative;margin:0 auto 0;background:#272727;padding:30px 0;}
-#FooterBodyBottomText{width: 50%; text-align: center;border-top:2px solid #1b1b1b;color:#1b1b1b;padding:20px 0 0 0;}
+#FooterBody{position: relative;margin:0 auto 40px;background:#272727;padding:30px 0;}
+#FooterBodyBottomText{width: 50%; text-align: center;border-top:2px solid #1b1b1b;color:#464646;padding:20px 0 0 0;}
 #FooterLogo {align-items:center;justify-content:center;}
 #FooterLogo img{width:60px;width:60px;}
 #HappyMaster{text-align: center;}
@@ -43,7 +43,7 @@ align-items:center;justify-content:center;height: auto;text-align:center;}
 #MasterGroup{position: relative;text-align: center;height:180px;background:#1E362A;}
 #MasterGroupUp{position: relative;top:10px;padding:20px 0;}
 #MasterGroupBottom{position: relative;top:10px;padding:20px 0;}
-#FollowVK{text-align: center;width:100%;margin-top:40px;height:60px;}
+#FollowVK{text-align: center;width:100%;margin-top:50px;height:70px;}
 #FollowVK a {color:#fefefe; background:#54759a;padding:10px 20px;width:120px;}
 #Happy33white{text-align: center;}
 #Happy33white a {color:#fefefe;}
@@ -61,7 +61,7 @@ align-items:center;justify-content:center;height: auto;text-align:center;}
 #HeadNameLogo p {color:#c6c6c6;font-size: 1.5rem;padding-bottom:10px;}
 #HeadNameJob{text-align:center;padding-top:7px;}
 #HeadNameJob span {font-size: 1.2rem;}
-#IndexFooter{margin:0 auto 0;width:100%;padding:10px 0 30px 0;}
+#IndexFooter{margin:0 auto 0;width:60%;padding:10px 0 30px 0;}
 #IndexHeadLogo{width:100%;display:flex;align-items:center;justify-content:center;height: auto;}
 #IndexHeadLogo img{width:100px;}
     
@@ -79,7 +79,8 @@ align-items:center;justify-content:center;height: auto;text-align:center;}
 #HeadNameJob{text-align:center;padding-top:15px;}
 #HeadNameJob span {font-size: 1.9rem;}
 #NavMenu li {display:inline-block;font-size: 1.1rem;}
-#IndexFooter{padding:10px 0 30px 0;}
+#IndexFooter{width:60%;margin:0 auto 0;height:100%;}
+#FooterBody{margin:0 auto 40px;width:400px;}
 #IndexHeadLogo{width:152px;height:100px;}
 #IndexHeadLogo img{width:152px;}
     
@@ -95,7 +96,7 @@ align-items:center;justify-content:center;height: auto;text-align:center;}
     #HeadNameLogo p {color:#c6c6c6;font-size: 2rem;padding-bottom:10px;}
 #HeadAdress{float:right;padding:40px 20px;}
 #NavMenu li {display:inline-block;font-size: 1.2rem;padding-right:5em;}
-#IndexFooter{background:#1A1A1A;max-width:1544px;width:100%;margin:0 auto 50px;height:100%;}
+#IndexFooter{background:#1A1A1A;max-width:1544px;width:100%;margin:0 auto 0;height:100%;}
 #FooterBody{margin:0 auto 40px;background:#272727;width:400px;}
 #FooterLogo {display:flex;align-items:center;justify-content:center;width:100%;}
 #FooterLogo img{width:60px;width:60px;}   
