@@ -18,15 +18,14 @@ a:visited{color:#f64747;}
 #IndexHeadLogo:hover{background:#276B4B;}
 
 #HeadName{float:left;padding:10px 15px;height:100px;width:45%;display:flex;align-items:center;justify-content:center;height: auto;text-align:center;}
-#HeadNameLogo p {color:#c6c6c6;font-size: 1.4rem;padding-bottom:10px;}
+#HeadNameLogo p {color:#c6c6c6;font-size: 1.4rem;padding-top:10px;}
 #HeadNameJob{text-align:center;padding-top:7px;}
 #HeadNameJob span {font-size: 1rem;}
 
 #HeadAdress{visibility:hidden;align-items:center;justify-content:center;height: auto;text-align:center;padding:15px 30px;}
-#HeadAdress li {list-style: none;font-size: 1rem;}
-#HeadAdress li span {color:#296c4b;font-size:1.2rem;font-weight: normal;}
+#HeadAdress li {list-style: none;font-size: 1.2rem;}
 
-#NavMenu{margin:0 auto 40px;padding:0 10px;list-style-type: none;
+#NavMenu{margin:0 auto 0;padding:0 10px;list-style-type: none;
 align-items:center;justify-content:center;height: auto;text-align:center;}
 #NavMenu li {font-size: 1.3rem;padding:10px 10px;}
 #NavMenu li a{color:#8c8c8c;padding-bottom:10px;}
@@ -44,9 +43,8 @@ align-items:center;justify-content:center;height: auto;text-align:center;}
 
 @media screen and (min-width: 560px) {
 #IndexHead{width:100%;padding:0;height:200px;}
-         #IndexHeadLogo{padding:5px 0;}
+#IndexHeadLogo{padding:5px 0;}
 #HeadAdress{visibility: visible;float:right;padding:15px 45px;}
-#HeadAdress li span{font-weight: normal;}
 #IndexBody{width:100%}
 #HeadName{width:30%;padding:0;height:100px;}
 #HeadName p {font-size:26px;padding-bottom:7px;}   
