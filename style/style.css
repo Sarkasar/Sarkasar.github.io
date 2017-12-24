@@ -61,7 +61,7 @@ align-items:center;justify-content:center;height: auto;text-align:center;}
 #HeadNameLogo p {color:#c6c6c6;font-size: 1.5rem;padding-bottom:10px;}
 #HeadNameJob{text-align:center;padding-top:7px;}
 #HeadNameJob span {font-size: 1.2rem;}
-#IndexFooter{margin:0 auto 0;width:60%;padding:10px 0 30px 0;}
+#IndexFooter{margin:0 auto 0;width:100%;padding:10px 0 30px 0;background:#1A1A1A;}
 #IndexHeadLogo{width:100%;display:flex;align-items:center;justify-content:center;height: auto;}
 #IndexHeadLogo img{width:100px;}
     
@@ -79,8 +79,8 @@ align-items:center;justify-content:center;height: auto;text-align:center;}
 #HeadNameJob{text-align:center;padding-top:15px;}
 #HeadNameJob span {font-size: 1.9rem;}
 #NavMenu li {display:inline-block;font-size: 1.1rem;}
-#IndexFooter{width:60%;margin:0 auto 0;height:100%;}
-#FooterBody{margin:0 auto 40px;width:400px;}
+#IndexFooter{width:100%;margin:0 auto 0;height:100%;background:#1A1A1A;}
+#FooterBody{background:#1A1A1A;margin:0 auto 40px;width:400px;}
 #IndexHeadLogo{width:152px;height:100px;}
 #IndexHeadLogo img{width:152px;}
     
