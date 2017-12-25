@@ -1,8 +1,9 @@
-RewriteCond %{HTTP_HOST} !^www\.(.*) [NC]
-RewriteRule ^(.*)$ http://www.%1/$1 [R=301,L]
 
 RewriteCond %{HTTP_HOST} !^sarkasar.ru$ [NC]
 RewriteRule ^(.*)$ http://sarkasar.ru/$1 [R=301,L]
+
+RewriteCond %{HTTP_HOST} !^www\.(.*) [NC]
+RewriteRule ^(.*)$ http://www.%1/$1 [R=301,L]
 
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.(php|html|htm)\ HTTP/ 
 RewriteRule ^(.*)index\.(php|html|htm)$ $1 [R=301,L]
